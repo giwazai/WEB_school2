@@ -440,7 +440,7 @@ nav a:hover {
 
 .motivation-container {
     height: 300px;
-    background: url(/src/code1.png);
+    background: url(src/code1.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
