@@ -333,7 +333,7 @@ nav a:hover {
 }
 
 .time-title {
-    padding: 60px 40px;
+    padding: 40px 40px;
     width: 600px;
     font-size: 35px;
 }
@@ -440,7 +440,7 @@ nav a:hover {
 
 .motivation-container {
     height: 300px;
-    background: url(/src/code1.png);
+    background: url(src/code1.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -461,7 +461,7 @@ nav a:hover {
     display: flex;
     align-items: start;
     justify-content: center;
-    gap: 20px;
+    gap: 60px;
     margin-left: 30px;
     margin-right: 30px;
 }
@@ -482,11 +482,10 @@ nav a:hover {
 
 }
 
-/* .box {} */
-
 .box ul {
     font-weight: bold;
-    margin-left: 20px;
+    margin-left: 10px;
+    margin-right: 20px;
     font-size: 20px;
     list-style: url(/src/list-icon3.png);
     list-style-position: outside;
@@ -503,6 +502,7 @@ nav a:hover {
 
 .card-image {
     width: 100%;
+    height: 270px;
     border-radius: 30px 30px 0px 0px;
 }
 
