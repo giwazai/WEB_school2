@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <a data-aos="slide-right" href="index.html">
+            <p class="logo">JS</p>
+        </a>
+        <nav>
+            <a data-aos="fade-down" data-aos-delay="200" href="html.html" class="button">HTML</a>
+            <a data-aos="fade-up" data-aos-delay="300" href="css.html" class="button">CSS</a>
+            <a data-aos="fade-right" data-aos-delay="400" href="JS.html" class="button">JavaScript</a>
+            <a data-aos="fade-left" data-aos-delay="500" href="React.html" class="button">ReactJS + TypeScript</a>
+            <a data-aos="fade-down" data-aos-delay="600" href="Node.html" class="button">NodeJS</a>
+            <div class="navigation">
+                <div class="icon-text">Швидка навігація <i id="arrow-down" class="fas fa-arrow-down"></i></div>
+                <div class="map">
+                    <a href="#about">Наші випускники</a>
+                    <a href="#timetable">Графік занять</a>
+                    <a href="#pricing">Тарифи</a>
+                    <a href="#contacts">Контакти</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="introduction">
+            <div class="left">
+                <p data-aos="fade-up-right" data-aos-delay="200">Курс <span>FULLSTACK</span> розробник</p>
+                <ul data-aos="fade-up-left" data-aos-delay="200" class="left-list">
+                    <li>Професійні вчителі</li>
+                    <li>Онлайн-платформа для навчання</li>
+                    <li>Спільні проєкти з іншими учнями</li>
+                    <li>Сертифікат з рівнем ваших здібностей</li>
+                </ul>
+            </div>
+            <div data-aos="flip-left" data-aos-delay="200" class="right">
+                <p>Перший пробний курс безкоштовний!
+                    <br>
+                    Запишіться прямо зараз <i class="fas fa-arrow-down"></i>
+                </p>
+                <a href="#contacts">Спробувати безкоштовно</a>
+            </div>
+        </section>
+        <section id="about" class="about">
+            <div class="numbers">
+                <div data-aos="fade-up-right" class="students">
+                    <p><span>4000+</span><br>випускників нашої школи стали успішними в IT</p>
+                </div>
+                <div data-aos="fade-up" class="workers">
+                    <p><span>2000+</span><br>наших учнів працюють у великих IT-компаніях</p>
+                </div>
+                <div data-aos="fade-up-left" class="salary">
+                    <p><span>$1200</span><br>Середня зарплата наших фахівців</p>
+                </div>
+            </div>
+            <p data-aos="slide-up" class="languages-title">Ось чого ми можемо вас навчити <i class="fa fa-arrow-down"
+                    aria-hidden="true"></i></p>
+            <div class="languages">
+                <div data-aos="fade" class="group-html">
+                    <img src="/src/html.png" alt="" class="html">
+                    <p>HTML</p>
+                </div>
+                <div data-aos="fade" data-aos-delay="200" class="group-css">
+                    <img src="/src/css.png" alt="" class="css">
+                    <p>CSS</p>
+                </div>
+                <div data-aos="fade" data-aos-delay="300" class="group-js">
+                    <img src="/src/js.png" alt="" class="js">
+                    <p>JavaScript</p>
+                </div>
+                <div data-aos="fade" data-aos-delay="400" class="group-react">
+                    <img src="/src/react.png" alt="" class="react">
+                    <p>ReactJS</p>
+                </div>
+                <div data-aos="fade" data-aos-delay="600" class="group-node">
+                    <img src="/src/node.png" alt="" class="node">
+                    <p>NodeJS</p>
+                </div>
+            </div>
+        </section>
+        <section id="timetable" class="timetable">
+            <h1 class="time-title" data-aos="fade-up-right">Уроки проходять кожну субботу та неділю з 12:00 до 20:00
+            </h1>
+            <div class="timetable-container">
+                <div class="timetable-elements">
+                    <div data-aos="fade-up-left" class="lenght">
+                        <h1><i class="fa-solid fa-clock"></i></h1>
+                        <p>Урок триває 1 годину 30 хвилин</p>
+                    </div>
+                    <div data-aos="fade-up-left" data-aos-delay="200" class="presentation">
+                        <h1><i class="fa-solid fa-person-chalkboard"></i></i></h1>
+                        <p>Учні навчаються по матеріалам з презентації</p>
+                    </div>
+                    <div data-aos="fade-up-left" data-aos-delay="300" class="team">
+                        <h1><i class="fa-solid fa-user-group"></i></h1>
+                        <p>Спільні проєкти з іншими та робота в команді</p>
+                    </div>
+                </div>
+                <div class="questions">
+                    <p class="question"><i class="fa-solid fa-plus"></i> Скільки учнів навчається в одному класі?</p>
+                    <div class="answer">
+                        <p>У кожній групі навчається в середньому 8–12 учнів. Це дозволяє приділити увагу кожному та
+                            забезпечити комфортне навчання.</p>
+                    </div>
+                    <p class="question"><i class="fa-solid fa-plus"></i> Коли починається курс?</p>
+                    <div class="answer">
+                        <p>Нові групи стартують щомісяця. Ви можете обрати зручну дату початку при записі.</p>
+                    </div>
+                    <p class="question"><i class="fa-solid fa-plus"></i> З чого почати?</p>
+                    <div class="answer">
+                        <p>Рекомендуємо почати з базового курсу, навіть якщо у вас немає досвіду. Ми допоможемо
+                            визначити рівень і підібрати програму.</p>
+                    </div>
+                    <p class="question"><i class="fa-solid fa-plus"></i> Чи можна взяти додаткові заняття?</p>
+                    <div class="answer">
+                        <p>Так, доступні індивідуальні заняття з викладачем для більш глибокого опрацювання тем або
+                            допомоги з проєктами.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="motivation">
+            <div class="comment">
+                <p data-aos="fade-up-left" class="comment-text">Я навчався в цій школі програмування протягом 4-х років
+                    і вже працюю у великій
+                    компанії. Тут я вивчив
+                    HTML5, CSS3, JavaScript та багато чого іншого! Вчителі завжди готові допомогти та пояснити якщо щось
+                    не зрозуміло. Дуже сподобалось те, що в кінці року ми робили сайт з власним портфоліо. Раджу
+                    записатись в цю школу якщо хочете якісне навчання та успіхи у майбутньому.
+                </p>
+                <p data-aos="fade-down-right" class="under-comment">- коментар нашого випускника</p>
+            </div>
+            <div class="motivation-container">
+            </div>
+            <div id="pricing" class="pricing">
+                <div class="cards-container">
+                    <div data-aos="flip-right" class="card-container">
+                        <img src="/src/code1.png" class="card-image" alt="...">
+                        <div class="box">
+                            <h5 class="h5-box">Звичайний</h5>
+                            <ul>
+                                <li>Доступ до основних курсів</li>
+                                <li>Практичні завдання</li>
+                                <li>Доступ до матеріалів курсу</li>
+                                <li>Сертифікат після завершення</li>
+                                <br>
+                                <span class="default">
+                                    <li>Доступ до всіх курсів</li>
+                                    <li>Додаткові практичні проєкти</li>
+                                    <li>Перевірка домашніх завдань</li>
+                                    <li>Пріоритетна підтримка</li>
+                                    <br>
+                                    <li>Персональний ментор</li>
+                                    <li>Розбір коду та поради від експертів</li>
+                                    <li>Доступ до закритих курсів</li>
+                                    <li>Допомога зі створенням портфоліо</li>
+                                    <li>Підготовка до роботи / фрилансу</li>
+                                </span>
+                            </ul>
+                            <p>₴1199/місяць.</p>
+                        </div>
+                    </div>
+                    <div data-aos="flip-right" data-aos-delay="300" class="card-container">
+                        <img src="/src/code1.png" class="card-image" alt="...">
+                        <div class="box">
+                            <h5 class="h5-box">Преміум</h5>
+                            <ul>
+                                <li>Доступ до основних курсів</li>
+                                <li>Практичні завдання</li>
+                                <li>Доступ до матеріалів курсу</li>
+                                <li>Сертифікат після завершення</li>
+                                <br>
+                                <li>Доступ до всіх курсів</li>
+                                <li>Додаткові практичні проєкти</li>
+                                <li>Перевірка домашніх завдань</li>
+                                <li>Пріоритетна підтримка</li>
+                                <br>
+                                <span class="default">
+                                    <li>Персональний ментор</li>
+                                    <li>Розбір коду та поради від експертів</li>
+                                    <li>Доступ до закритих курсів</li>
+                                    <li>Допомога зі створенням портфоліо</li>
+                                    <li>Підготовка до роботи / фрилансу</li>
+                                </span>
+                            </ul>
+                            <p>₴1499/місяць.</p>
+                        </div>
+                    </div>
+                    <div data-aos="flip-right" data-aos-delay="600" class="card-container">
+                        <img src="/src/code1.png" class="card-image" alt="...">
+                        <div class="box">
+                            <h5 class="h5-box">Хакер</h5>
+                            <ul>
+                                <li>Доступ до основних курсів</li>
+                                <li>Практичні завдання</li>
+                                <li>Доступ до матеріалів курсу</li>
+                                <li>Сертифікат після завершення</li>
+                                <br>
+                                <li>Доступ до всіх курсів</li>
+                                <li>Додаткові практичні проєкти</li>
+                                <li>Перевірка домашніх завдань</li>
+                                <li>Пріоритетна підтримка</li>
+                                <br>
+                                <li>Персональний ментор</li>
+                                <li>Розбір коду та поради від експертів</li>
+                                <li>Доступ до закритих курсів</li>
+                                <li>Допомога зі створенням портфоліо</li>
+                                <li>Підготовка до роботи / фрилансу</li>
+                            </ul>
+                            <p>₴1799/місяць.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="carousel">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000"
+                data-bs-pause="false">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="/src/AstraFit.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/src/ForestHorizon.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/src/MathTest.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contacts" class="contacts">
+            <div data-aos="flip-up" class="contact-body">
+                <h1>Запишіться на курс тут</h1>
+                <div class="contact-form">
+                    <input type="text" placeholder="Ім`я">
+                    <input type="email" placeholder="Ваша електронна адреса">
+                    <textarea name="" id="" placeholder="Ваше повідомлення тут..."></textarea>
+                    <button>Надіслати</button>
+                </div>
+            </div>
+            <div class="messenger">
+                <div class="qr-code">
+                    <p class="qr-title">QR код для телеграму</p>
+                    <img src="/src/QR.jpg" alt="">
+                </div>
+                <p class="social">Ми у соцмережах</p>
+                <div class="icons">
+                    <a data-aos="flip-up" href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a data-aos="flip-right" data-aos-delay="200" href=""><i class="fa-brands fa-viber"></i></a>
+                    <a data-aos="flip-down" data-aos-delay="300" href=""><i class="fa-brands fa-telegram"></i></a>
+                    <a data-aos="flip-left" data-aos-delay="400" href=""><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-left">
+            <a href="#">JS
+                <br>
+                <span>курси</span>
+            </a>
+        </div>
+        <div class="footer-center">
+            <a href="#timetable">Запитання та відповіді</a>
+            <a href="#contacts">Контакти</a>
+            <a href="#pricing">Ціни та тарифи</a>
+            <a href="platform.html">Увійти до платформи</a>
+        </div>
+        <div class="footer-right">
+            <a href="html.html">HTML</a>
+            <a href="css.html">CSS</a>
+            <a href="JS.html">JavaScript</a>
+            <a href="React.html">ReactJS</a>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
