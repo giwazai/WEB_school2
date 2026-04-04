@@ -415,7 +415,7 @@ nav a:hover {
 
 .comment-text {
     padding-top: 50px;
-    padding-left: 30px;
+    padding-left: 100px;
     color: white;
     font-weight: 400;
     font-size: 28px;
@@ -426,7 +426,7 @@ nav a:hover {
     font-style: italic;
     color: rgb(116, 116, 116);
     font-size: 20px;
-    padding-left: 30px;
+    padding-left: 100px;
 }
 
 /* =========================== */
@@ -440,7 +440,7 @@ nav a:hover {
 
 .motivation-container {
     height: 300px;
-    background: url(/WEB_school2/src/code1.png);
+    background: url("src/code1.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -487,7 +487,7 @@ nav a:hover {
     margin-left: 10px;
     margin-right: 20px;
     font-size: 20px;
-    list-style: url(/src/list-icon3.png);
+    list-style: url("/src/list-icon3.png");
     list-style-position: outside;
 }
 
